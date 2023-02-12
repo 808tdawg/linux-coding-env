@@ -27,7 +27,7 @@ favorites=$(gsettings get org.gnome.shell favorite-apps)
 favorites="${favorites::-1},'gnome-terminal.desktop','code.desktop']"
 
 # Remove Thunderbird Mail, Rhythmbox, LibreOffice Writer, and Help from the list of favorites
-favorites=$(echo $favorites | sed "s/'thunderbird.desktop',//g;s/'rhythmbox.desktop',//g;s/'libreoffice-writer.desktop',//g;s/'gnome-help.desktop',//g")
+favorites=$(echo $favorites | sed "s/'thunderbird.desktop',//g;s/'rhythmbox.desktop',//g;s/'libreoffice-writer.desktop',//g;s/'yelp.desktop',//g")
 
 # Set the new list of favorites
 gsettings set org.gnome.shell favorite-apps "$favorites"
