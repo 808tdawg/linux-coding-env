@@ -5,6 +5,19 @@ This script is a helpful tool for setting up a Linux programming environment for
 
 Overall, this script provides a simple and repeatable way to set up a Linux programming environment, saving time and effort for those who need to set up multiple environments for school labs or personal projects.
 
+### Software and Tools Installed
+- Python 3.10
+- Visual Studio Code for Linux ARM64
+- Poetry
+- The `tree` command
+- Docker
+
+### Modifications Made
+- Adds the terminal and Visual Studio Code to the Gnome Shell favorites list.
+- Removes Thunderbird Mail, Rhythmbox, LibreOffice Writer, and Help from the Gnome Shell favorites list.
+- Starts the Docker service and enables it to start at boot time.
+- Restarts the system after all installations and configurations are complete.
+
 ## What the script does
 1. Installs Python 3.10 using `apt-get`
 2. Downloads and installs Visual Studio Code for Linux ARM64
