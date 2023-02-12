@@ -28,7 +28,7 @@ Overall, this script provides a simple and repeatable way to set up a Linux prog
 7. Reboots the system
 
 ## Note
-- The script requires elevated privileges for certain operations and uses sudo to achieve this. The password is stored in a variable named PASSWORD and is passed to sudo using the command echo $PASSWORD | sudo -S before each operation that requires it. To use the script on your system, make sure to update the password stored in the PASSWORD variable at the top of the script.
+- The script requires elevated privileges for certain operations and uses sudo to achieve this. The password is stored in a variable named `PASSWORD` and is passed to sudo using the command `echo $PASSWORD | sudo -S` before each operation that requires it. To use the script on your system, make sure to update the password stored in the `PASSWORD` variable at the top of the script.
 - Developed on an M1 MacBook Air, using Parallels Desktop v18.
 
 ## Installation steps in terminal
