@@ -1,11 +1,9 @@
 # linux-coding-env
 
 ## Overview
-This script automates the setup of a Linux programming system, installing and configuring various software and tools.
+This script is a helpful tool for setting up a Linux programming environment for Python development. The script automates the installation and configuration of various software and tools, including Python 3.10, Visual Studio Code, Poetry, Docker, and others. It is designed for use on Ubuntu systems with ARM64 architecture and the bash shell.
 
-## Requirements
-- A Linux Ubuntu system with the `bash` shell
-- ARM64 architecture 
+Overall, this script provides a simple and repeatable way to set up a Linux programming environment, saving time and effort for those who need to set up multiple environments for school labs or personal projects.
 
 ## What the script does
 1. Installs Python 3.10 using `apt-get`
@@ -17,8 +15,8 @@ This script automates the setup of a Linux programming system, installing and co
 7. Reboots the system
 
 ## Note
-- The script uses `sudo` for privileged operations and passes the password stored in the `PASSWORD` variable to `sudo` using `echo $PASSWORD | sudo -S` before each command that requires elevated privileges.
-- Developed on Parallels, using an M1 MacBook Air.
+- The script requires elevated privileges for certain operations and uses sudo to achieve this. The password is stored in a variable named PASSWORD and is passed to sudo using the command echo $PASSWORD | sudo -S before each operation that requires it. To use the script on your system, make sure to update the password stored in the PASSWORD variable at the top of the script.
+- Developed on an M1 MacBook Air, using Parallels Desktop v18.
 
 ## Installation steps in terminal
 1. `curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh` 
