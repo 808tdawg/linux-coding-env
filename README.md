@@ -19,5 +19,7 @@ Overall, this script provides a simple and repeatable way to set up a Linux prog
 - Developed on an M1 MacBook Air, using Parallels Desktop v18.
 
 ## Installation steps in terminal
-1. `curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh` 
-2. `bash letscode.sh`
+1. Install Ubuntu via the Parallels console
+2. Once Ubunutu has been installed and set up, open up the terminal
+2. Enter `curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh` 
+3. Enter `bash letscode.sh`
