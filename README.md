@@ -14,4 +14,4 @@ This script sets up a 64-bit ARM Ubuntu Linux environment with the latest versio
 
 ## Installation steps in terminal:
 'curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh' 
-'bash letscode.sh'
+<br>'bash letscode.sh'
