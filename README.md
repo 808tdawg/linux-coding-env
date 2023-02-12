@@ -13,5 +13,5 @@ This script sets up a 64-bit ARM Ubuntu Linux environment with the latest versio
 - The script uses `sudo` for privileged operations and passes the password stored in the `PASSWORD` variable to `sudo` using `echo $PASSWORD | sudo -S` before each command that requires elevated privileges.
 
 ## Installation steps in terminal:
-'curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh' 
-<br>'bash letscode.sh'
+`curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh` 
+<br>`bash letscode.sh`
