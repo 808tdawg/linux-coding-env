@@ -16,10 +16,10 @@ This script automates the setup of a Linux programming system, installing and co
 6. Starts the Docker service and enables it to start at boot time
 7. Reboots the system
 
-## Note:
+## Note
 - The script uses `sudo` for privileged operations and passes the password stored in the `PASSWORD` variable to `sudo` using `echo $PASSWORD | sudo -S` before each command that requires elevated privileges.
 - Developed on Parallels, using an M1 MacBook Air.
 
-## Installation steps in terminal:
+## Installation steps in terminal
 1. `curl -O https://raw.githubusercontent.com/808tdawg/linux-coding-env/main/letscode.sh` 
 2. `bash letscode.sh`
