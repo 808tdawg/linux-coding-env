@@ -39,12 +39,11 @@ curl -sSL https://install.python-poetry.org | python3 -
 echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc
 source ~/.bashrc
 
-# Install Docker with sudo and pass the password to sudo
-echo $PASSWORD | sudo -S apt-get update
-echo $PASSWORD | sudo -S apt-get install -y docker.io
-
 # Install the tree command with sudo and pass the password to sudo
 echo $PASSWORD | sudo -S apt-get install -y tree
+
+# Install Docker with sudo and pass the password to sudo
+echo $PASSWORD | sudo -S apt-get install -y docker.io
 
 # Start the Docker service and enable it to start at boot time with sudo and pass the password to sudo
 echo $PASSWORD | sudo -S systemctl start docker
